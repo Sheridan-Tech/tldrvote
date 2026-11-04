@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "source_policy": "Election calendars and boundaries must come from election authorities, not guessed from the current date, IP or a previous contest.",
+  "elections": [
+    {
+      "id": "wa-2026-11-03-general",
+      "state": "WA",
+      "county": "Clark",
+      "type": "general",
+      "election_date": "2026-11-03",
+      "ballots_start": "2026-10-16",
+      "poll_close_local": "20:00",
+      "certification_due": null,
+      "verified_certified_at": null,
+      "scope": "countywide_inventory_not_personal_ballot",
+      "authority_url": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+      "local_url": "https://clark.wa.gov/elections/november-3-2026-general-special-election",
+      "personal_lookup_url": "https://voter.votewa.gov/",
+      "calendar_review_status": "DATES_FROM_OFFICIAL_GUIDANCE"
+    },
+    {
+      "id": "or-2026-11-03-general",
+      "state": "OR",
+      "county": "Multnomah",
+      "type": "general",
+      "election_date": "2026-11-03",
+      "ballots_start": "2026-10-14",
+      "poll_close_local": "20:00",
+      "certification_due": "2026-11-30",
+      "verified_certified_at": null,
+      "scope": "countywide_inventory_not_personal_ballot",
+      "authority_url": "https://multco.us/info/november-3-2026-general-election",
+      "local_url": "https://multco.us/info/november-3-2026-general-election",
+      "personal_lookup_url": "https://sos.oregon.gov/elections/Pages/myvote.aspx",
+      "calendar_review_status": "DATES_FROM_OFFICIAL_GUIDANCE"
+    }
+  ]
+}

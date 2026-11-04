@@ -1,0 +1,61 @@
+name: TLDR Vote source and presentation quality checks
+
+on:
+  pull_request:
+    paths:
+      - "platform/**"
+      - "assets/**"
+      - "data/**"
+      - "multnomah/**"
+      - "clark_*.json"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/workflows/tldrvote-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-preview:
+    name: Source/schema QA and browser regression
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: platform/requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install -r platform/requirements.txt
+          python -m playwright install chromium --with-deps
+      - name: Build normalized data, enforce source references, test browser
+        run: python platform/pipeline.py --preview --test-browser
+      - name: Assert no automated editorial approval
+        shell: bash
+        run: |
+          set +e
+          python platform/validate_release.py --authoritative > release-gate.txt 2>&1
+          CODE=$?
+          set -e
+          cat release-gate.txt
+          if [ "$CODE" -ne 2 ]; then
+            echo "Expected authoritative gate to remain blocked (exit 2) until signed editorial review"
+            exit 1
+          fi
+      - name: Upload review artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tldrvote-preview-qa
+          path: |
+            platform/output/quality_report.json
+            platform/output/research_jobs.json
+            platform/output/standardized_ui_test.json
+            platform/output/pipeline_run.json
+            release-gate.txt
+          retention-days: 14

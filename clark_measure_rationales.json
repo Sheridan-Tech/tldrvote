@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "research_date": "2026-11-03",
+  "method": "Rationales attributed to the published voters pamphlet committees or official explanatory text. Reasons for supporting or questioning a change are presented without claiming to know anyone’s private motives. Potential secondary effects are clearly labeled contingent interpretations, not established future results. Missing submitted opposition is not manufactured.",
+  "no_formal_opponent_note": "When no formal opposing committee statement was located in the reviewed pamphlet, we show an analytical concern as a question, not as a position claimed by voters or opponents.",
+  "measures": {
+    "IP26-645": {
+      "problem": "Washington passed a tax on annual income above $1 million, and the question is whether that tax should begin as scheduled.",
+      "supporters_reason": "Supporters say a new state income tax could discourage business investment and make it easier to expand income taxes later. Their goal is to prevent that kind of tax from taking effect.",
+      "opponents_reason": "Opponents want to keep a source of revenue mainly collected from very high incomes. They argue that removing it could make it harder to fund schools, health services, and other programs.",
+      "secondary_effects": "Repealing the tax would also prohibit certain future income taxes under the measure’s terms. Future lawmakers could choose different taxes, spending cuts, or other changes in response to less revenue; this measure does not dictate which programs would lose money.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "IL26-001": {
+      "problem": "Families, schools and lawmakers disagree about how quickly parents should receive student information and how schools should protect sensitive records.",
+      "supporters_reason": "Supporters want parents to know more about their children’s school experiences and receive covered records sooner. They believe parents need that information to guide their children and challenge school decisions.",
+      "opponents_reason": "Opponents are concerned that broader access and notification rules could reveal sensitive information in situations where a student may need privacy or protection.",
+      "secondary_effects": "Schools could have to change how staff handle requests and notifications. The consequences can differ for ordinary records and sensitive medical or child-protection situations; other privacy laws and the limited investigation exception still matter.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "IL26-638": {
+      "problem": "People disagree about how girls-only school sports should determine eligibility, and how to balance sex-based competitive categories with privacy and student participation.",
+      "supporters_reason": "Supporters argue the new eligibility definition would protect opportunities and competitive fairness for girls in the covered sports.",
+      "opponents_reason": "Opponents are concerned about excluding transgender girls and about possible burdens, privacy problems and disputes when schools or providers verify eligibility.",
+      "secondary_effects": "The rules could change team participation, require provider paperwork and create school compliance work. Lawsuits or conflicts with other rules are possible but not certain; no comprehensive participation or health-cost estimate was verified.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 19": {
+      "problem": "Some residents want to prevent county councilors from holding the same seat for many terms in a row.",
+      "supporters_reason": "Supporters believe a break after three terms would make more opportunities for new candidates and reduce advantages from long incumbency.",
+      "opponents_reason": "Opponents argue that voters should be able to keep an experienced councilor without a forced break, especially if the person is doing work voters like.",
+      "secondary_effects": "Term limits could increase turnover and reduce experience within the Council. They might also shift more institutional knowledge to unelected staff. Those possible effects have not been measured for this amendment.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 20": {
+      "problem": "Residents sometimes do not get much time to review complicated county budgets before decisions are made.",
+      "supporters_reason": "Supporters want budget numbers and meetings earlier so residents and councilors can ask questions before the county adopts its spending plan.",
+      "opponents_reason": "Opponents question whether a fixed schedule belongs in the Charter and whether extra steps or early estimates could increase work without improving decisions.",
+      "secondary_effects": "Earlier deadlines may improve public access but can create pressure to produce estimates before all information is available. This measure does not guarantee lower taxes or more public participation.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": "The schedule and any workload effect should be checked against actual budget operations."
+    },
+    "Charter 21": {
+      "problem": "Some decisions about appointments to advisory boards depend heavily on who is allowed to nominate people.",
+      "supporters_reason": "Supporters want elected councilors as well as the County Manager to propose people for more county boards, while keeping final appointments with the Council.",
+      "opponents_reason": "No formal opposing statement was located in the reviewed pamphlet. A possible question to examine is whether shared nomination authority would improve recruitment or complicate appointments.",
+      "secondary_effects": "The balance of influence over who is considered for county boards could change. That does not automatically change board decisions, and the Ethics Review Commission is excluded.",
+      "argument_basis": "no_formal_opponent",
+      "editor_note": "The possible concern is an analytical question, NOT attributed to a submitted opposing committee."
+    },
+    "Charter 22": {
+      "problem": "Some local races have only one or two candidates. A primary normally helps narrow down larger fields to the people who advance.",
+      "supporters_reason": "Supporters say holding a primary when no one needs to be eliminated wastes election money. They want a simpler election process.",
+      "opponents_reason": "Opponents say the primary gives challengers and voters an earlier, publicly supported chance to learn about the candidates. They worry that skipping it could make incumbents better known than challengers.",
+      "secondary_effects": "The change could save some administration costs and reduce the number of appearances on primary ballots, while also shortening the period when these races appear on mailed ballots. Neither the savings nor effect on voter knowledge is established by the text alone.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 23": {
+      "problem": "Residents may want a regular public explanation of the county’s work and financial condition.",
+      "supporters_reason": "Supporters want a yearly report guaranteed by the Charter so residents can follow county money and activity rather than depend on officials choosing to publish one.",
+      "opponents_reason": "No formal opposing statement was located in the reviewed pamphlet. A possible concern is whether a mandated report adds staff work or becomes a promotional document instead of useful public information.",
+      "secondary_effects": "The Manager would have another required reporting step; publication could help scrutiny but could also consume staff resources. The proposal does not require printing and mailing it to every household.",
+      "argument_basis": "no_formal_opponent",
+      "editor_note": "The possible concern is an analytical question, NOT a reported opposing campaign position."
+    },
+    "Charter 24": {
+      "problem": "County rules about land use and building can sometimes increase or decrease the supply and cost of housing.",
+      "supporters_reason": "Supporters believe a required housing-impact study would show tradeoffs before county leaders vote on rules that could make housing harder to build or afford.",
+      "opponents_reason": "Opponents question whether another required study could slow needed county decisions, cost money or repeat analysis already done.",
+      "secondary_effects": "The process could give Council clearer evidence but also add staff work and time for some proposals. A completed study would not itself change rent, create homes or require the Council to follow its findings.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 25": {
+      "problem": "Some people want a stronger barrier before county leaders approve certain new taxes.",
+      "supporters_reason": "Supporters want a wider agreement on the Council—at least four of five members—before a covered new tax or increase can pass.",
+      "opponents_reason": "Opponents are concerned that a higher vote threshold could let a smaller group of councilors block funding even when most councilors believe a service needs it.",
+      "secondary_effects": "The rule could change which future tax proposals pass and how county leaders negotiate budgets. It would not directly lower existing taxes and excludes several kinds of charges and renewals.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 26": {
+      "problem": "Residents can petition for changes, but collecting enough valid signatures for a countywide measure can be difficult.",
+      "supporters_reason": "Supporters want to lower some signature requirements so residents can bring more ideas directly to government or voters.",
+      "opponents_reason": "Opponents worry that lowering the bar may lead to more proposals, more election or verification work, and less support behind each one before it moves forward.",
+      "secondary_effects": "More petitions could reach county staff and Council; some could lead to ballot elections. An easier petition process would not guarantee a proposal becomes law, and mini-initiatives do not automatically go to the ballot.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Charter 27": {
+      "problem": "The County Council approves spending, but supporters say councilors should have a stronger independent way to check whether programs use public money effectively.",
+      "supporters_reason": "Supporters want the legislative branch to be able to commission performance audits that look for waste, problems or improvements in county programs.",
+      "opponents_reason": "Opponents question the cost, duplication with existing oversight, and whether the Council needs another audit process.",
+      "secondary_effects": "Audits may identify improvements and may also cost staff time or outside-contract money. The measure requires a process but does not require one paid audit every year; annual state-required audits remain separate.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    },
+    "Prop 12": {
+      "problem": "The county says its older jail and nearby justice facilities are crowded or outdated for today’s needs. The proposed answer is borrowing money for larger or updated facilities.",
+      "supporters_reason": "Supporters want enough space and safer buildings for jail operations, courtrooms and the Sheriff’s Office. They argue that delaying construction could leave existing problems unresolved.",
+      "opponents_reason": "No formal opposing statement was located in the reviewed pamphlet. A practical concern is that borrowing creates long-term property-tax obligations, with interest, and building space does not pay for the people needed to operate it.",
+      "secondary_effects": "Debt repayment could continue for decades. Construction costs may change; a larger facility could require additional staffing and operating money. The county says bonds would not be issued until operating funding is secured if the separate levy fails.",
+      "argument_basis": "no_formal_opponent",
+      "editor_note": "Financial and operating questions are analytical considerations, not an invented opposition committee."
+    },
+    "Prop 13": {
+      "problem": "The county says public-safety and justice-system operations need more ongoing money, including for staff.",
+      "supporters_reason": "Supporters want more predictable funding for the Sheriff and justice system, including staffing and services that buildings alone cannot provide.",
+      "opponents_reason": "The original published opposition raised tax and budget concerns, but its committee later said it would withdraw opposition. Do not present its first argument as its unchanged current position.",
+      "secondary_effects": "The higher 2027 levy would become a base for future tax limits, not merely a one-year cost. The levy could fund services even if the separate jail bond fails; hiring enough qualified staff could still take time.",
+      "argument_basis": "withdrawn_opposition",
+      "editor_note": "Show the original statement AND the later committee rebuttal when comparing motivations."
+    },
+    "Prop 11 BGSD": {
+      "problem": "Battle Ground School District says it needs money for school programs and daily operations after its previous local operations levy expired in 2025.",
+      "supporters_reason": "Supporters want local money to help pay for school staff, learning programs and services that the district says state funding does not fully cover.",
+      "opponents_reason": "Opponents question the added burden on property taxpayers and whether the district has made enough changes to control spending or prioritize classrooms.",
+      "secondary_effects": "If approved, the district would collect a local tax in 2027–2029, but passage would not restore every earlier cut. If rejected, the district would need other budget choices. The levy applies only within that school district, and actual property-tax rates may vary.",
+      "argument_basis": "pamphlet_arguments",
+      "editor_note": ""
+    }
+  }
+}

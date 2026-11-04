@@ -1,0 +1,372 @@
+{
+  "version": 2,
+  "date": "2026-11-03",
+  "method": "Editorial explanations written from the source-attributed prepared editorial layer and separately cited external-record checks. Interpretations, limits, and agency forecasts remain clearly labeled; original legal text and candidate statements are preserved.",
+  "purpose": "Understand what changes, why it matters, who is affected, the practical choice, what a candidate can actually control, and unresolved questions.",
+  "disclosure": "Clear explanation, not an official ballot, a voting recommendation, a legal opinion, or a complete independent fact-check. Candidate priorities are from their own published materials.",
+  "measures": {
+    "IP26-645": {
+      "decision": "Washington passed a new income tax on the part of someone’s yearly income above $1 million, starting with 2028 income. Voters are deciding whether to cancel that tax before it begins and restrict other income taxes described in this measure.",
+      "yes": "Cancel that planned tax and put the measure’s income-tax restrictions into law. Other tax credits and exemptions created with the law would not be directly canceled by this vote.",
+      "no": "Leave the planned tax and current rules in place, unless lawmakers or courts change them later.",
+      "affects": "The planned tax is aimed at income above $1 million, not at everyone who makes a paycheck. State services and people who use them could be affected by future budget choices.",
+      "money": "State budget analysts estimate about $11.4 billion less revenue over five fiscal years if the measure passes. That is a forecast across several years, not money the state has already collected.",
+      "tradeoff": "The choice is between keeping an expected source of state revenue and preventing this income tax from starting. Claims about which programs would be cut are predictions about future budget decisions.",
+      "caution": "One campaign used a $13 billion figure over a different time period. Do not compare that number directly with the state’s $11.4 billion estimate as if they measure the same years."
+    },
+    "IL26-001": {
+      "decision": "Washington changed its parental-rights school law in 2025. This initiative asks whether to return to the earlier 2024 version. The differences include when parents can see student records, what information schools share, and some notice and opt-out rules.",
+      "yes": "Bring back the earlier rules. For example, the proposed text generally sets ten business days for access to covered student records, instead of the longer period in current law.",
+      "no": "Keep the newer version of this particular law. Other state and federal rules about parents, students, education, and privacy would still apply.",
+      "affects": "Parents, students, teachers, and school staff who handle sensitive student information could see changes to their rights or duties.",
+      "money": "The state estimates no major direct cost. Schools might have smaller costs to change forms or procedures; the exact amount is not known.",
+      "tradeoff": "Supporters want parents to get more information quickly. Opponents worry about students’ privacy and safety. These are different concerns about how the rules may work in real situations.",
+      "caution": "The proposed text includes a limited exception involving some child-abuse investigations. The exact rules and other privacy laws matter; it is not accurate to say that there is no exception at all."
+    },
+    "IL26-638": {
+      "decision": "This proposal would change eligibility for certain girls-only sports teams in grades K–12. It would use the measure’s definition of biological sex and require verification by a health care provider.",
+      "yes": "Apply the new eligibility and verification rules. The state’s explanation says transgender girls would generally be excluded from the covered girls’ teams.",
+      "no": "Keep the current eligibility system rather than add these new restrictions. That does not prevent future changes through other laws or school sports rules.",
+      "affects": "Students who play covered interschool sports, their families, coaches, schools, and health care providers could be affected.",
+      "money": "The state estimates about $21,000 to update guidance, plus school costs it cannot yet calculate. This is not a complete estimate of every possible expense.",
+      "tradeoff": "Supporters emphasize fairness and sports opportunities for girls. Opponents emphasize student privacy, inclusion, and possible harm from checking eligibility. The claimed effects are disputed.",
+      "caution": "The proposal lists different ways a provider could verify eligibility; it does not require every listed test for every child. The official fiscal statement also has a timing inconsistency that has not been resolved."
+    },
+    "Charter 19": {
+      "decision": "County Council members help decide county budgets, services, and land-use rules. This amendment would limit how many terms they could serve in a row.",
+      "yes": "Allow up to three consecutive terms on the Council. Someone who sits out a full term could run again. Earlier consecutive service and a term served more than halfway would count under the proposal.",
+      "no": "Do not add this new consecutive-term limit to the county’s main rules.",
+      "affects": "People running for Council and voters who want to keep or replace an experienced council member would be affected.",
+      "money": "The official explanation does not provide a dollar cost or savings estimate.",
+      "tradeoff": "Term limits can make room for new candidates, but they can also require experienced members to leave for a time. This is a choice about who can keep serving, not a promise of better results.",
+      "caution": "This is a limit on terms in a row, not a lifetime ban from Council."
+    },
+    "Charter 20": {
+      "decision": "The county passes a budget to decide how much money different services can use. This amendment would move important budget information and public discussion earlier in the year.",
+      "yes": "Require earlier steps, including preliminary budget information by August 31, a public presentation by September 8, and budget adoption by November 30 under the proposed schedule.",
+      "no": "Keep the current budget-writing process rather than put these new dates in the Charter.",
+      "affects": "County departments, Council members, and residents who want to study or comment on spending would be affected.",
+      "money": "The official explanation does not calculate extra staff costs or savings.",
+      "tradeoff": "More advance notice may give residents more time to respond. Fixed deadlines could also reduce scheduling flexibility. The measure changes the process, not the amount of money collected.",
+      "caution": "Voting Yes would not itself raise taxes, cut spending, or guarantee more people will attend public meetings."
+    },
+    "Charter 21": {
+      "decision": "County boards and commissions advise on specific public issues. Right now, there are rules about who can suggest people to serve on them. This measure would expand that nomination role.",
+      "yes": "Allow both the County Council and County Manager to nominate people for more boards. The Council would still make the final appointments.",
+      "no": "Keep the existing nomination process.",
+      "affects": "People who want to serve on county boards, and the officials who choose them, could be affected.",
+      "money": "The official explanation provides no estimated cost.",
+      "tradeoff": "The question is who gets to suggest names, not whether every board member is chosen directly by one councilor. More possible nominators could widen the applicant pool, but could also change the balance of influence.",
+      "caution": "The county Ethics Review Commission is specifically left out of this change."
+    },
+    "Charter 22": {
+      "decision": "A primary election is an earlier round that can narrow a field of candidates. This amendment addresses certain county offices that are already nonpartisan, meaning the office is not elected under a party label.",
+      "yes": "Send a covered nonpartisan race directly to the general election when only one or two candidates file, following the amendment’s rules.",
+      "no": "Do not add these changes to the county Charter; existing state and local election rules continue to apply.",
+      "affects": "Voters and candidates in the covered county offices would see a different election schedule in some years.",
+      "money": "Supporters say skipping some primaries could save money, but the official explanation does not give a verified dollar amount.",
+      "tradeoff": "Skipping an unnecessary first round may simplify voting. However, a primary can also give candidates earlier public attention. A state law already addresses primaries in many nonpartisan races.",
+      "caution": "This does not turn partisan offices into nonpartisan ones, and it does not cancel every primary election."
+    },
+    "Charter 23": {
+      "decision": "The County Manager already reports on county work. This amendment would make a yearly public report about the county’s money and activities an explicit Charter requirement.",
+      "yes": "Require an annual report, a public presentation, and broad public access to the information.",
+      "no": "Do not add this new Charter requirement; other existing reporting duties remain.",
+      "affects": "Residents trying to understand county spending and the manager and staff who prepare the report would be affected.",
+      "money": "The explanation gives no fixed cost. It does not require an expensive printed mailing to every household.",
+      "tradeoff": "A guaranteed report may make county work easier to follow. It may also take staff time and raise questions about what information belongs in the report.",
+      "caution": "The rule says the report must be widely available, not that every person must receive it by mail."
+    },
+    "Charter 24": {
+      "decision": "Before passing some county-made rules that could affect housing, the county would have to study how those rules might change the number of homes, the land available, building permits, and the cost of construction.",
+      "yes": "Require a housing impact study before certain county-proposed laws with a direct, important effect on housing or development costs.",
+      "no": "Do not add this study requirement to the Charter. The county could still study housing when it chooses or when another law requires it.",
+      "affects": "People building, renting, buying, or planning homes, along with county planning staff, could be affected.",
+      "money": "The official explanation provides no reliable total for the cost of the studies. Staff or outside experts could do the work.",
+      "tradeoff": "A study could show costs and side effects before a rule passes. It could also add time or expense to some decisions. It does not tell the Council what result to choose.",
+      "caution": "Routine changes required by state law are excluded. A study requirement does not by itself create new homes or lower rent."
+    },
+    "Charter 25": {
+      "decision": "Today, the five-member County Council votes on county taxes under existing rules. This amendment would require a larger majority to approve certain newly levied taxes and increases to those taxes.",
+      "yes": "Require at least four YES votes out of five Council members for the taxes covered by this new two-thirds rule.",
+      "no": "Keep the current voting requirement for those tax decisions.",
+      "affects": "County leaders planning new taxes and people who use county-funded services could be affected by future decisions.",
+      "money": "This vote does not cut an existing tax or change your bill right away. Any future money effect depends on what taxes the Council considers.",
+      "tradeoff": "A higher vote requirement can make new taxes harder to pass, but it can also make it harder to raise money for services. The rule changes who must agree; it does not pick a tax amount.",
+      "caution": "Taxes already being collected on January 1, 2027 are excluded, as are certain renewals and fees. This is not a four-vote rule for every county charge."
+    },
+    "Charter 26": {
+      "decision": "People can collect signatures to ask county voters to decide an issue. This amendment would change some of those petition rules, including how many signatures are needed.",
+      "yes": "Lower certain signature thresholds from 10% to 8% under a formula based on votes in the governor’s election. It would also change parts of checking signatures and create a way to bring smaller proposals before Council.",
+      "no": "Keep the current county petition rules and signature thresholds.",
+      "affects": "Residents who organize petitions, election workers who check them, and the County Council could be affected.",
+      "money": "Supporters expect savings from different signature-checking rules, but no independently confirmed dollar amount is provided.",
+      "tradeoff": "Fewer required signatures may make it easier to bring an issue forward. It may also mean the county handles more petitions. Neither result is guaranteed.",
+      "caution": "Eight percent does not mean eight percent of every county resident. A smaller mini-initiative can get a Council hearing without automatically becoming a ballot question."
+    },
+    "Charter 27": {
+      "decision": "A performance audit checks whether a program uses money well and meets its goals. This amendment would require a process for the County Council to arrange independent checks of county programs when needed.",
+      "yes": "Create that audit process and allow audits as needed. Outside contractors would have to follow specific selection and audit standards.",
+      "no": "Keep the existing system rather than add this extra Charter process.",
+      "affects": "County departments, the Council, and residents who want to know how programs perform could be affected.",
+      "money": "Opponents have claimed high yearly costs; supporters say no yearly audit is required. Neither side’s cost claim has been independently established. Setting up or using the process could still cost money.",
+      "tradeoff": "More independent checks could uncover problems or improvements. They also require time and money, so whether the benefits outweigh the costs is not settled.",
+      "caution": "An audit process would be required, but a new paid audit every year would not. Existing state-required financial audits would continue."
+    },
+    "Prop 12": {
+      "decision": "Clark County wants to build or improve jail space, courtrooms, and Sheriff’s Office facilities. It would borrow money by selling bonds, which are loans paid back over many years with interest.",
+      "yes": "Let the county borrow up to about $366.2 million for those building projects and collect extra property taxes to repay the loans and interest.",
+      "no": "Do not approve this bond plan or the extra taxes tied to repaying it. That does not mean the buildings have no repair or space needs.",
+      "affects": "People who pay property tax in the area covered by the measure would help pay for the borrowing. People who use the justice system may be affected by the buildings and available space.",
+      "money": "The county estimates about $710.7 million in total repayment over time, including interest, under its assumptions. Its example averages about $86 per year for a median home, but individual bills and borrowing terms can differ.",
+      "tradeoff": "The choice is whether to borrow for large facilities now and repay over time, or leave the county to find another way to address its building needs. Construction costs and the value of alternatives need more review.",
+      "caution": "This pays for buildings, not the ongoing staff needed to run them. The county says it would delay issuing bonds if Proposition 13 fails until operating money is found."
+    },
+    "Prop 13": {
+      "decision": "This is a separate property-tax decision about paying for public safety and the justice system, including staff. It would allow the county to collect a higher regular property-tax rate in 2027.",
+      "yes": "Raise this county tax component to as much as $1.15 for each $1,000 of taxable property value, and use that higher collection as the starting point for later tax limits.",
+      "no": "Do not approve this increase. Existing public-safety funding and other property taxes would still exist.",
+      "affects": "People who pay county property taxes could pay more. Sheriff and court services could receive more funding, though passing the levy does not guarantee every planned job is filled.",
+      "money": "The increase is about $0.44 for every $1,000 of taxable value. On a home assessed at $600,000, that is about $264 more in one year for this tax component. Exemptions and changing property values can alter real bills.",
+      "tradeoff": "Voters are weighing more money for services against higher property taxes. This is an increase in one part of the bill, not the same percentage increase in the entire bill.",
+      "caution": "The original opposing committee later said it would withdraw its opposition. Both statements matter. The higher 2027 amount also affects how future limits are calculated."
+    },
+    "Prop 11 BGSD": {
+      "decision": "Battle Ground Public Schools is asking voters in its school district to approve money for teachers, learning programs, and other day-to-day school operations. A previous operations levy ended in 2025.",
+      "yes": "Allow the district to collect the proposed replacement school tax in 2027, 2028, and 2029.",
+      "no": "Do not authorize this replacement levy. The district would still receive other funding and would have to make budget decisions without this revenue.",
+      "affects": "Only properties and voters in Battle Ground School District are covered. This is not a countywide school tax.",
+      "money": "The proposed yearly amounts are $37.025 million, $38.690 million, and $40.430 million—a total of about $116.1 million. At the estimated rate of $1.76 per $1,000, a home assessed at $650,000 would pay about $1,144 per year for this tax alone.",
+      "tradeoff": "The decision is whether to add the proposed money for school services or leave the district to adjust spending and other resources. The district says passing it would not restore every earlier cut.",
+      "caution": "The earlier levy expired in 2025, and this operations levy was not being collected in 2026. Estimated tax rates may change with assessed property values."
+    }
+  },
+  "races": {
+    "US House WA-03": {
+      "role": "A U.S. House member votes on national laws, federal spending, and oversight of federal agencies. This is different from the county or state government.",
+      "contrast": "Braun puts more weight on lowering taxes and government spending, manufacturing, and law enforcement. Perez emphasizes skilled trades, housing and child-care costs, cheaper medicine, and the right to repair things you own. Both discuss making life more affordable, but through different proposals.",
+      "check": "Compare their actual votes and bills, not just campaign goals. A single congressional vote cannot tell you everything about a candidate."
+    },
+    "LD17-P1": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Christly talks more about school and job training, health care, and housing. Waters focuses more on roads, bridges, internet access, local safety, and housing. They share some goals but put different issues first.",
+      "check": "Neither statement proves a plan will work. Look for costs, bills, and specific projects behind each promise."
+    },
+    "LD17-P2": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Perez emphasizes housing, schools, health care, and child care. Stuebe emphasizes police and safety, government oversight, and keeping costs down without higher taxes. Both discuss affordable housing.",
+      "check": "Ask what each would fund, how they would pay for it, and which measures they would support."
+    },
+    "LD18-P1": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Knott focuses on wages, home prices, and how schools and health services affect families. McClintock emphasizes holding down taxes and government spending, fewer costly school requirements, police support, and business growth.",
+      "check": "A promise to improve services or reduce taxes needs a budget plan. Look for real proposals, not only broad goals."
+    },
+    "LD18-P2": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Letinich highlights a new bridge, housing, child care, workers, and reproductive rights. Ley proposes ending certain taxes, a large property-tax exemption, adding police and mental-health workers, and a bridge without tolls or light rail.",
+      "check": "A bridge requires many government approvals, and a proposed tax exemption needs legal and budget details. Neither candidate can do those things alone."
+    },
+    "LD20-P1": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Abbarno emphasizes tax relief, public safety, jobs, and school opportunities. Zahn emphasizes investment in smaller communities, union jobs, health care, transit, and affordable housing while opposing data centers.",
+      "check": "Compare what each wants to spend or change, and how those choices might affect local jobs and taxes."
+    },
+    "LD20-P2": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Orcutt emphasizes jobs tied to natural resources, property rights, and paying for services without higher taxes. Jones emphasizes fixing slow permit approvals, building infrastructure, and creating local jobs in timber, shipping, and construction.",
+      "check": "The candidates agree that local jobs matter. The clearer question is which rules, projects, and spending choices they would change."
+    },
+    "LD49-P1": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Harless proposes more school and child-care funding, expanded health care, housing help, transit, and environmental protections. Mittelman highlights living costs, public safety, government openness, and experience with mental-health care.",
+      "check": "Both talk about affordability. Compare specific funding plans and whether a promised policy falls within state lawmakers’ power."
+    },
+    "LD49-P2": {
+      "role": "A state representative helps write Washington laws and votes on the state budget. One representative cannot change a tax, school rule, or bridge plan alone.",
+      "contrast": "Stonier highlights special-education funding and support for jobs, child care, housing, and health care. Thompson calls for school-funding changes, help for businesses affected by construction, and closer checks on tax spending.",
+      "check": "Their school and spending priorities overlap in broad terms; ask what law or budget change each would make first."
+    },
+    "Assessor": {
+      "role": "The Assessor estimates property values that help calculate property taxes. The Assessor does NOT set the tax rates that governments charge.",
+      "contrast": "Van Nortwick talks about helping people understand assessments and tax exemptions and improving office systems. Thoune questions whether some assessments reflect actual sale prices and wants clearer appeals and better service.",
+      "check": "A house’s sale price, its tax assessment, and its final tax bill are not the same. An unverified claim about appeal results should not be treated as proven."
+    },
+    "Auditor": {
+      "role": "The County Auditor oversees elections and certain public records and financial functions. The office must follow election law, no matter who wins.",
+      "contrast": "Quiring O’Brien wants more scrutiny of election administration and government spending and points to elected-office experience. Kelly emphasizes his auditing and county-finance work and the day-to-day administration of records and elections.",
+      "check": "Asking for an investigation is not evidence of election wrongdoing. Look for documented problems, actual audit results, and whether a proposal follows the law."
+    },
+    "Clerk": {
+      "role": "The County Clerk keeps court files, handles some court payments, and helps people access records. The Clerk is not the judge who decides a case.",
+      "contrast": "Weber highlights continuing records technology, online filing, and collecting money owed through court cases. Shapiro wants easier-to-use services, clearer financial records, and regular public access to the office.",
+      "check": "Compare actual wait times, record accuracy, and the cost of proposed service changes. Candidate statements alone do not prove improvement."
+    },
+    "Council-1": {
+      "role": "A county councilor votes on county services, local budgets, taxes, land-use decisions, and some county projects. City councils handle different areas.",
+      "contrast": "Yung focuses on housing stability, homelessness programs, clean-water work, and cooperation among local governments. Shull emphasizes public safety, transportation, business support, and using other budget options before raising taxes.",
+      "check": "A councilor’s claims about project success should be compared with budgets and results, not accepted from a campaign statement alone."
+    },
+    "Council-2": {
+      "role": "A county councilor votes on county budgets, land-use plans, services, and local taxes. Some big transportation projects also require state or federal agreement.",
+      "contrast": "Belkot explicitly opposes bridge tolls, county subsidies for light rail, unwanted city-boundary changes, and new taxes. Zingale highlights housing, roads, social services, and protecting open land. His statement does not give the same specific bridge position.",
+      "check": "A candidate not mentioning a proposal is not proof that the candidate supports or opposes it. Ask each about the same bridge and budget questions."
+    },
+    "Council-5": {
+      "role": "A county councilor decides local budgets, services, land use, and some taxes with other council members.",
+      "contrast": "McCoy emphasizes managing growth, roads, safety, and asking voters before using county tax money for light rail. Silliman emphasizes changes to county governing rules, oversight of taxes and spending, parks, housing, and infrastructure.",
+      "check": "Both mention safety and housing. Their concrete positions on the county Charter and light-rail financing are worth comparing."
+    },
+    "Prosecutor": {
+      "role": "The Prosecuting Attorney leads the lawyers who bring criminal cases for the county and represents the county in legal matters. A prosecutor does not decide whether someone is guilty.",
+      "contrast": "Only Laurel Smith is named on this sample ballot. She says she would prioritize victims, fair evidence-based decisions, and holding people responsible for crimes.",
+      "check": "One named candidate does not mean this site endorses them. Review office experience and documented work, not only the statement."
+    },
+    "Sheriff": {
+      "role": "The Sheriff leads the county law-enforcement agency, including patrol and investigations. The Sheriff does not alone decide how much money the county spends.",
+      "contrast": "Only John Horch is named on this sample ballot. He asks for more deputies and other staff for patrol, traffic safety, investigations, and help for victims.",
+      "check": "Whether more staff improves response time depends on funding, hiring, and actual operations. The campaign statement is not a staffing audit."
+    },
+    "Treasurer": {
+      "role": "The Treasurer collects and safeguards certain public money and handles county funds. The Treasurer does not set your property’s assessed value or choose tax rates.",
+      "contrast": "Only Alishia Topper is named on this sample ballot. She emphasizes safe management and investment of public money, clear reporting, and taxpayer service.",
+      "check": "A promised investment return must be compared fairly with risk and other options. One candidate does not mean this site makes an endorsement."
+    },
+    "SC-1": {
+      "role": "A Washington Supreme Court justice helps decide appeals about state law and the state Constitution. A justice is not a lawmaker and should decide cases fairly, not promise how to rule on future cases.",
+      "contrast": "Melody points to civil-rights work and making courts accessible and independent. Edwards emphasizes following the written words of the Constitution and statutes and making court decisions predictable.",
+      "check": "Judicial philosophy is not a promise to decide a particular case. Compare documented legal work, opinions where available, and current evaluation records."
+    },
+    "SC-3": {
+      "role": "A Washington Supreme Court justice helps decide appeals about state law and the state Constitution. A justice is not a lawmaker and should decide cases fairly, not promise how to rule on future cases.",
+      "contrast": "Stevens emphasizes limiting judges to their legal role and leaving policy decisions to elected lawmakers. Hawk highlights protecting rights and making sure people who cannot afford a lawyer receive fair treatment.",
+      "check": "Both discuss fairness. Their past legal work and court decisions are more useful evidence than general campaign promises."
+    },
+    "SC-4": {
+      "role": "A Washington Supreme Court justice helps decide appeals about state law and the state Constitution. A justice is not a lawmaker and should decide cases fairly, not promise how to rule on future cases.",
+      "contrast": "Birk points to experience writing appellate decisions and equal treatment under law. O’Donnell points to leading trial-court work involving families, criminal cases, crime victims, and protection orders.",
+      "check": "Trial courts hear evidence; appellate courts review legal questions. Different court experience is not automatically better or worse. Review representative decisions."
+    },
+    "SC-5": {
+      "role": "A Washington Supreme Court justice helps decide appeals about state law and the state Constitution. A justice is not a lawmaker and should decide cases fairly, not promise how to rule on future cases.",
+      "contrast": "Angelis highlights court access, rights, and legal help he says he provided to people with fewer resources. Larson emphasizes trial-court experience and approaches to crime and addiction that combine help with responsibility.",
+      "check": "Neither statement alone proves how someone will rule as a Supreme Court justice. Look for legal records and fair comparisons."
+    },
+    "SC-7": {
+      "role": "A Washington Supreme Court justice helps decide appeals about state law and the state Constitution. A justice is not a lawmaker and should decide cases fairly, not promise how to rule on future cases.",
+      "contrast": "Stephens highlights her Supreme Court experience, court access, and independence. Bloom highlights his business, financial, and military background and says that would add a different perspective.",
+      "check": "A current judge’s title is not a performance rating, and an opponent’s different background is not a negative rating. Use comparable verified records."
+    },
+    "DC-1": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only Kristen Parcher is named on this sample ballot. She emphasizes making sure people are heard, and treating them patiently, respectfully, and fairly.",
+      "check": "A candidate’s promise of fairness is not a substitute for reviewing actual judicial work."
+    },
+    "DC-2": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only Chad Sleight is named on this sample ballot. He emphasizes respectful treatment in court and responding to changes in local court needs.",
+      "check": "Look at court service, legal experience, and independently documented results rather than assuming an unopposed race was evaluated for you."
+    },
+    "DC-3": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only James Smith is named on this sample ballot. He emphasizes using facts and the law, respectful courtrooms, and work with a court program for veterans.",
+      "check": "A specialized court program can help some cases; its results and a judge’s broader record need their own evidence."
+    },
+    "DC-4": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only Leslie Lopez is named on this sample ballot. She emphasizes fair treatment, prepared decision-making, and making courts easier to use.",
+      "check": "The ballot statement describes goals, not a complete review of decisions or complaints."
+    },
+    "DC-5": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only Megan Peyton is named on this sample ballot. She emphasizes fair and understandable court hearings and awareness of the challenges people bring into court.",
+      "check": "Respect and fairness are important goals but not proof of individual case outcomes."
+    },
+    "DC-6": {
+      "role": "A District Court judge hears certain local criminal, traffic, and civil cases. Judges must apply the law to the facts of each case, not campaign for a particular result.",
+      "contrast": "Only Abigail Bartlett is named on this sample ballot. She emphasizes clear courts, community legal education, and treatment courts addressing some cases involving drug use.",
+      "check": "The usefulness of a treatment court depends on case rules and measured results; these have not been reviewed in full here."
+    },
+    "PUD-3": {
+      "role": "Clark Public Utilities provides electric and water services. A utility commissioner helps set its budgets, rates, and long-term power plans. The job does not control county tax rates.",
+      "contrast": "Van Dyke emphasizes dependable service, conservation, and help with bills. Matthews wants changes to buying or producing solar power, including projects east of the mountains, and to community solar programs.",
+      "check": "A promise about cheaper or cleaner power needs to account for equipment, transmission, contracts, and future demand. Electric rates and water rates are separate questions."
+    }
+  },
+  "candidates": {
+    "John Braun": "He says he wants lower taxes, less government spending, more factory jobs, safer communities, and more say for parents in schools.",
+    "Marie Gluesenkamp Perez": "She says she wants more skilled-trade jobs, lower housing and childcare costs, cheaper health care, and rules against conflicts of interest in Congress.",
+    "Ben Christly": "He says he wants stronger schools, more job training, more affordable homes, support for small businesses, and easier access to health care.",
+    "Kevin Waters": "He says he wants better roads and internet service, stronger schools, more affordable homes, and safer communities.",
+    "Diana H. Perez": "She says she wants lower housing costs, better roads, stronger schools, and easier access to health care and childcare.",
+    "David Stuebe": "He says he wants safer communities, affordable homes, careful use of tax money, and more open government.",
+    "Randi L. Knott": "She says she wants better-paying jobs, homes families can afford, and schools, health care, and public services that work better for families.",
+    "Stephanie McClintock": "She says she wants fewer tax increases, less wasteful spending, fewer costly school rules, more police support, and more business growth.",
+    "Deken Letinich": "He says he wants a new bridge, more homes and childcare spaces, lower daily costs, better treatment for workers, and abortion rights.",
+    "John Ley": "He says he wants to end certain taxes, lower some property taxes, add police and mental health workers, and build bridges without tolls or light rail.",
+    "Peter Abbarno": "He says he wants lower taxes, safer neighborhoods, a government that answers to people, and more jobs and school opportunities.",
+    "Andy Zahn": "He says he wants more jobs in smaller towns, affordable homes, public transportation and health care. He opposes new data centers.",
+    "Ed Orcutt": "He says he wants good-paying local jobs, protection for property owners, and public services funded without new taxes.",
+    "Evan Jones": "He says he wants building projects to get approved faster, better roads and public works, safer jobs, and more local work.",
+    "Kim D. Harless": "She says she wants cheaper housing and childcare, better school funding, health care for more people, public transit, and environmental protection.",
+    "Sarah Mittelman": "She says she wants daily life to cost less, safer communities, clearer government decisions, and better help for people in mental health crises.",
+    "Monica Jurado Stonier": "She says she wants more school support for students with disabilities, good jobs, more affordable health care, housing, and childcare.",
+    "Derek Thompson": "He says he wants to change how schools get money, protect small businesses during construction, and make government spending easier to track.",
+    "Peter Van Nortwick": "He says he wants to help people understand property taxes, expand tax relief for eligible older homeowners, and improve the assessor’s office.",
+    "Tyler Thoune": "He says property values used for taxes should match market evidence. He wants clearer records and better help when people challenge a value.",
+    "Eileen Quiring O’Brien": "She says she wants careful reviews of elections and voter lists, checks on government spending, and better service from the Auditor’s Office.",
+    "Mitchell Kelly": "He says he wants fair elections, correct records, strong money checks, and an Auditor’s Office that runs well.",
+    "Scott G Weber": "He says he wants court records to stay safe, easier online court filing, better collection of money owed to victims, and helpful service.",
+    "Rachel Shapiro": "She says she wants court records to be correct and easy to use, quicker service, clearer money records, and regular public office hours.",
+    "Glen Yung": "He says he wants more stable housing, help for people without homes, safer communities, cleaner water, and teamwork among local leaders.",
+    "Bryan Shull": "He says he wants the county to try other options before raising taxes, improve safety and roads, support businesses, and track homelessness programs.",
+    "Michelle Belkot": "She says she opposes new taxes, unwanted city-boundary changes, bridge tolls, and public funding for light rail. She puts police and roads first.",
+    "John Zingale": "He says he wants better roads and services, more homes people can afford, protection for open space, and a county government that listens.",
+    "Troy McCoy": "He says he wants careful spending, growth the county can handle, better roads and public safety, and a public vote before county taxes pay for light rail.",
+    "Peter Silliman": "He says he wants changes to county rules, safer neighborhoods, more checks on taxes and government, affordable housing, and better parks and roads.",
+    "Laurel Smith": "She says she wants people who commit crimes held responsible, fair treatment of victims, and decisions based on evidence.",
+    "John Horch": "He says the Sheriff’s Office needs more workers to answer calls, investigate crimes, handle traffic problems, and help victims.",
+    "Alishia Topper": "She says she wants to protect public money, invest it carefully, explain how it is handled, and help taxpayers.",
+    "Colleen Melody": "She says courts should protect people’s rights, give everyone a fair chance to be heard, and make decisions free from political pressure.",
+    "Scott Edwards": "He says judges should closely follow the words of the law, make steady and fair decisions, and answer for their work.",
+    "David Stevens": "He says judges should protect rights and follow the law instead of making new government policy.",
+    "Jaime Michelle Hawk": "She says courts should protect rights and be fair to people who cannot pay for a lawyer, workers, and families.",
+    "Ian Birk": "He says judges should be fair to everyone, make their own decisions, and think about how court rulings affect families.",
+    "Sean O’Donnell": "He says he wants fair courts that protect rights, treat crime victims fairly, and use his experience with family and criminal cases.",
+    "Theo Angelis": "He says he wants courts that people can use, fair treatment, and legal help for people who cannot afford it.",
+    "Dave Larson": "He says courts should be fair, independent of politics, and able to respond to crime and addiction with care and accountability.",
+    "Debra L. Stephens": "She says courts should treat people fairly, make decisions without political pressure, and work openly and well.",
+    "Todd A. Bloom": "He says his business, money, and military background would help him bring balance, fairness, and careful thinking to the court.",
+    "Kristen L. Parcher": "She says people should have a fair chance to be heard in court and be treated with patience, respect, and care.",
+    "Chad E. Sleight": "He says everyone who comes to court should be treated fairly and with respect.",
+    "James B. Smith": "He says judges should use facts and laws to make fair decisions. He also points to work helping veterans in court.",
+    "Leslie A. Lopez": "She says courts should be fair and easy to use, and that judges should prepare carefully and treat everyone with respect.",
+    "Megan D. Peyton": "She says courts should be fair, clear, and respectful of the challenges people bring with them.",
+    "Abigail E. Bartlett": "She says courts should be fair and easy to understand, and that special treatment courts can help with problems linked to drug use.",
+    "Jane A. Van Dyke": "She says she wants dependable power and water, programs that save resources, and help for customers who struggle with bills.",
+    "Gordon Matthews": "He says he wants more solar power, better planning for growing electricity needs, and changes to community solar programs."
+  },
+  "glossary": {
+    "Ballot": "The list of choices you can vote on.",
+    "Tax": "Money people pay to government.",
+    "Levy": "A tax collected for a specific purpose.",
+    "Bond": "Money the government borrows and pays back, usually with interest.",
+    "Interest": "Extra money paid back on a loan.",
+    "Charter": "The main rules for how a county government works.",
+    "Audit": "A check of money or how well a program works.",
+    "Primary": "The first round of an election.",
+    "Property tax": "A tax based on the assessed value of land or buildings.",
+    "Assessed value": "A value used to calculate property tax. It may differ from the sale price.",
+    "Nonpartisan": "An election where the office is not labeled with a political party.",
+    "Estimate": "A best guess based on available information. It could change.",
+    "Tax credit": "A rule that reduces the amount of tax someone owes if they qualify.",
+    "Tax exemption": "A rule that allows someone or something to pay less of a certain tax if they qualify.",
+    "Bonds": "Loans a government takes out and pays back with interest.",
+    "Levy lid lift": "A vote allowing a local government to collect more property tax than its usual growth limit.",
+    "Rebuttal": "A reply to an argument. It may add information or change an earlier position.",
+    "Fiscal forecast": "An estimate of future money coming in or going out. The amount can change.",
+    "Referendum": "A vote where people decide whether to accept or reject a law or decision.",
+    "Appellate court": "A court that reviews legal questions in decisions made by other courts.",
+    "Public safety": "Services such as police, emergency response, and some court or justice programs."
+  }
+}

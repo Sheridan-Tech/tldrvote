@@ -1,0 +1,59 @@
+name: "Report a correction or missing source"
+description: "Report a specific factual error, outdated passage, incorrect ballot scope, or missing original source."
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        TLDR Vote is independent from election officials. A submitted report is a lead for editorial review, **not a verified correction**. Public GitHub issues can be read by everyone. Do not include your address, voter registration details, vote choices, medical information, or other private information. For confidential requests, email james@sheridantech.io instead.
+  - type: input
+    id: page
+    attributes:
+      label: Exact TLDR Vote page or topic URL
+      description: Use the topic's Share link so the report can be reproduced.
+      placeholder: https://tldrvote.sheridansystems.tech/multnomah/#topic=...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Problem type
+      options:
+        - Wrong candidate or contest
+        - Incorrect statement or missing context
+        - Wrong legal or fiscal consequence
+        - Missing, broken or misleading source
+        - Outdated election information
+        - Personalized ballot/jurisdiction error
+        - Accessibility or functional issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: exact_claim
+    attributes:
+      label: What exactly appears wrong?
+      description: Quote a short, specific phrase or identify the data field. Avoid personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting primary sources and explanation
+      description: Include source URL, date, official page/section and how it conflicts with the current page. If you have no source, say what needs checking.
+    validations:
+      required: false
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested correction or clarification
+      description: Optional; editorial review will determine the final wording.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public report notice
+      options:
+        - label: I understand this report is public and contains no private voter information.
+          required: true

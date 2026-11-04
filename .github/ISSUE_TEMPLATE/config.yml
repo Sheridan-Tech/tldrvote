@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private email for sensitive corrections
+    url: https://tldrvote.sheridansystems.tech/transparency.html
+    about: Do not publish private information in a GitHub issue; email the project operator instead.
+  - name: Official Washington personal ballot
+    url: https://voter.votewa.gov/
+    about: Use the election authority for your actual voter record or ballot.
+  - name: Official Oregon personal ballot
+    url: https://sos.oregon.gov/elections/Pages/myvote.aspx
+    about: Use the election authority for your actual voter record or ballot.
