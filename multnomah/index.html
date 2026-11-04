@@ -56,14 +56,14 @@ details{border:1px solid var(--line);padding:12px;border-radius:10px;margin:12px
 <div class="nav"><div><div class="brand">TLDR <em>Vote</em></div><div style="font-size:12px;color:#c6dce5">What the Ballot?! · Independent research pilot</div></div>
 <nav class="countyNav" aria-label="County switch"><a href="/" >Clark County, WA</a><a href="/multnomah/" aria-current="page">Multnomah County, OR</a></nav></div>
 <h1>What the Ballot?!</h1><p><strong>Multnomah County, Oregon · November 3, 2026.</strong> A source-linked starting point for comparing candidates and understanding measures. No endorsements, scores or voting recommendations.</p>
-<div class="metrics"><div class="metric"><strong>60</strong>Candidate contests</div><div class="metric"><strong>6</strong>Local measures</div><div class="metric"><strong>7</strong>Ranked-choice contests</div><div class="metric"><strong>130/155</strong>Pamphlet profiles matched</div></div></div></header>
+<div class="metrics"><div class="metric"><strong>60</strong>Candidate contests</div><div class="metric"><strong>6</strong>Local measures</div><div class="metric"><strong>7</strong>Ranked-choice contests</div><div class="metric"><strong>130</strong>Candidate-submitted profiles located</div></div></div></header>
 <div class="wrap">
-<div class="notice"><strong>Public beta — research incomplete.</strong> This is the county-wide union of published ballot contests, not your personalized ballot. Many contests depend on city or district. Candidate statements are self-reported and have NOT been fact-checked as a whole. Some source matching is incomplete and the ballot-report counts are not fully reconciled. <a href="https://sos.oregon.gov/elections/Pages/myvote.aspx">Use Oregon My Vote to verify your actual ballot</a>. Oregon's 2026 Election Day ballot cutoff is 8 p.m. Pacific, November 3.</div>
+<div class="notice"><strong>Public beta — research incomplete.</strong> This is the county-wide union of published ballot contests, not your personalized ballot. Many contests depend on city or district. Candidate statements are self-reported and have NOT been fact-checked as a whole. All 130 matched candidate profiles passed a source-heading check. The other 25 candidates had no reliably identified individual profile in these pamphlets. The ballot-report header/count discrepancy is still unresolved. <a href="https://sos.oregon.gov/elections/Pages/myvote.aspx">Use Oregon My Vote to verify your actual ballot</a>. Oregon's 2026 Election Day ballot cutoff is 8 p.m. Pacific, November 3.</div>
 <p class="small"><a class="wideLink" href="https://multco.us/info/sample-ballots-november-2026-general-election" target="_blank" rel="noopener noreferrer">Official precinct sample ballots ↗</a><a class="wideLink" href="https://multco.us/info/ranked-choice-voting-faqs" target="_blank" rel="noopener noreferrer">How ranked-choice voting works ↗</a><a class="wideLink" href="mailto:james@sheridantech.io?subject=TLDR%20Vote%20-%20Multnomah%20source%20correction">Send a correction or missing source ↗</a></p>
 <div id="app"><p class="small">Loading ballot data…</p></div>
 <details id="method"><summary>Method, source provenance, transparency and limitations</summary>
 <p>Candidate names and offices are extracted from Multnomah County's Sept. 22 regular and ranked-choice ballot reports. Biographical fields come from candidate-submitted Oregon state or county pamphlet statements. The same comparison fields are presented for each candidate where available; absence of a field is not an adverse finding. Sources, partial external checks and material uncertainties are identified separately.</p>
-<p>Official reports show 53 regular candidate-office listings and six distinct local measures, plus seven ranked-choice contests. The regular report header shows 63 contests and 116 candidate filings but parsing identifies 53 standard races and 109 candidate rows; the discrepancy remains unverified. Do not use this as proof that every possible local ballot contest was captured.</p>
+<p>Official reports show 53 regular candidate-office listings and six distinct local measures, plus seven ranked-choice contests. The regular report header says 63 contests and 116 filed candidates, but the per-page official counts add to 60 contests and 109 candidates. Our extraction finds 53 standard office sections and six numbered local measures. The inconsistent report totals need clarification from the county; do not treat the header number or our index as a certified personalized ballot.</p>
 <p>Each measure's yes/no and financial explanation is an assistant-prepared reading of the official ballot and linked public records—not an independent fiscal or legal audit. Outside reporting helps corroborate selected roles and quote positions, but does not prove promised results. No complete campaign finance, court/disciplines, legislative votes, professional license or fiscal forecasting audit is asserted.</p>
 <p>As of November 3, 2026. This is independently developed by Sheridan Technologies, not affiliated with Oregon election officials or any party, candidate, or campaign. The user remains responsible for checking the current original sources and their personalized ballot.</p>
 </details>
@@ -92,13 +92,13 @@ function overview(){
 function candidate(c){
  const p=c.pamphlet_profile||{};
  const bio=p.candidate_reported_bio||{};
- function field(label,value){return '<dt>'+esc(label)+'</dt><dd>'+esc(value||'No independently confirmed information provided in matched material')+'</dd>';}
+ function field(label,value){return '<dt>'+esc(label)+'</dt><dd>'+esc(value||'Not supplied or not reliably extracted from reviewed material')+'</dd>';}
  let office= c.party_listed_on_ballot?'<span class="chip">'+esc(c.party_listed_on_ballot)+'</span>':'<span class="chip">Nonpartisan or preference not stated on roster</span>';
  let biolabel=p.statement_found?'Candidate-submitted pamphlet biography — not checked':'Statement not located — no negative inference';
  return '<article class="candidate"><h3>'+esc(c.name)+'</h3>'+office+'<p class="small"><strong>'+esc(biolabel)+'</strong></p>'+
   '<dl>'+field('Occupation',bio.occupation)+field('Prior professional experience',bio.experience)+field('Education',bio.education)+field('Prior government experience',bio.government_experience)+'</dl>'+
   (p.topics_mentioned?.length?'<p class="small"><span class="label">Subjects appearing in the statement (automated keyword matches, NOT candidate positions)</span> '+esc(p.topics_mentioned.join(', '))+'</p>':'')+
-  (p.profile_source?'<p class="small">'+link(p.profile_source,'Read original candidate-submitted pamphlet · page '+p.source_page)+'</p>':'<p class="gap">No matching statement was reliably located in the source range. This does not establish an absence of qualifications or policy positions.</p>')+
+  (p.profile_source?'<p class="small">'+link(p.profile_source,'Read original candidate-submitted pamphlet · page '+p.source_page)+'</p>':'<p class="gap">No individual statement was reliably identified in the reviewed official pamphlets. The candidate may not have submitted a profile; the absence of published material is not evidence about qualifications or positions.</p>')+
   '</article>';
 }
 function issue(x){
@@ -173,4 +173,4 @@ function hashItem(){let h=location.hash.slice(1);if(!h.startsWith('topic='))retu
 const q=hashItem();if(q&&item(q))selected=q;
 window.addEventListener('hashchange',()=>{const q=hashItem();selected=q&&item(q)?q:null;rerender()});
 rerender();
-</script></body></html>
+</script><div id="tldr-transparency-link" style="max-width:1100px;margin:20px auto;padding:12px 20px;font-size:14px"><a href="/transparency.html" style="font-weight:700">Transparency: verification status, corrections, methods and privacy</a></div></body></html>
