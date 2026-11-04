@@ -1,0 +1,1377 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "method": "Candidate policy fields were curated from the official candidate-supplied 2026 pamphlet statements and previously prepared source-attributed summaries; no party affiliation inference. Every issue asked of one candidate is also asked of every other candidate in the same contest. Blank positions are not filled by invention. Selected forum statements and official final-passage voting records have been added where they bear directly on an issue; those cells are labeled by source type rather than presented as equivalent evidence.",
+  "standards": {
+    "scope": "Issue-by-issue comparison of topics raised by either person and relevant to the office. Not a promise of all possible policy stances.",
+    "stated": "Candidate stated priority, proposal, or description from cited pamphlet. This does not establish that the promise will happen.",
+    "not_found": "No explicit position found in the materials reviewed for this issue. This does not mean support, opposition, or no opinion.",
+    "judicial": "Judges should be evaluated on legal work and approach to applying law, not forced into pledges about cases that may come before them.",
+    "source_date": "2026-11-03"
+  },
+  "races": {
+    "US House WA-03": {
+      "office": "U.S. Representative — 3rd Congressional District",
+      "topics": [
+        {
+          "issue": "Taxes and government spending",
+          "a": "Calls for lower taxes, less unnecessary spending, and stronger checks on waste.",
+          "b": null
+        },
+        {
+          "issue": "Jobs and workforce",
+          "a": "Wants to rebuild American manufacturing and support local employers.",
+          "b": "Emphasizes skilled trades and apprenticeships."
+        },
+        {
+          "issue": "Housing and child care",
+          "a": "Names rising housing and child-care costs as concerns, but gives no specific plan in the reviewed statement.",
+          "b": "Wants to address housing and child-care costs."
+        },
+        {
+          "issue": "Health care",
+          "a": "Says he wants to protect Social Security and Medicare.",
+          "b": "Highlights access to lower-cost health care and generic medicines."
+        },
+        {
+          "issue": "Public safety",
+          "a": "Says he would support law enforcement.",
+          "b": null
+        },
+        {
+          "issue": "Consumer rights and government ethics",
+          "a": null,
+          "b": "Emphasizes the right to repair products and reducing financial conflicts in Congress."
+        },
+        {
+          "issue": "Proof of citizenship and federal voter-ID bill",
+          "a": "Supported the 2026 SAVE America Act in the debate.",
+          "b": "Opposed the 2026 SAVE America Act with added voter-ID provisions, despite supporting a different earlier version.",
+          "a_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "a_basis": "OPB report of October 7 debate",
+          "b_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "b_basis": "OPB report of October 7 debate"
+        },
+        {
+          "issue": "Immigration enforcement",
+          "a": "Called for deportations to focus chiefly on people who committed crimes and for cooperation with federal officials.",
+          "b": "Called for secure borders and for immigration officers to follow high legal standards.",
+          "a_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "a_basis": "OPB report of October 7 debate",
+          "b_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "b_basis": "OPB report of October 7 debate"
+        },
+        {
+          "issue": "Mail voting and a temporary federal gas-tax pause",
+          "a": "Supported vote-by-mail and a temporary pause in the federal gasoline tax in the debate.",
+          "b": "Supported vote-by-mail and a temporary pause in the federal gasoline tax in the debate.",
+          "a_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "a_basis": "OPB report of October 7 debate",
+          "b_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "b_basis": "OPB report of October 7 debate"
+        },
+        {
+          "issue": "Federal ban on new data centers",
+          "a": "Did not support a nationwide moratorium on data centers during the debate.",
+          "b": "Did not support a nationwide moratorium on data centers during the debate.",
+          "a_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "a_basis": "OPB report of October 7 debate",
+          "b_source": "https://www.opb.org/article/2026/10/08/marie-gluesenkamp-perez-john-braun-debate/",
+          "b_basis": "OPB report of October 7 debate"
+        }
+      ],
+      "candidate_names": [
+        "John Braun",
+        "Marie Gluesenkamp Perez"
+      ],
+      "candidate_sources": [
+        {
+          "name": "John Braun",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=24",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Marie Gluesenkamp Perez",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=25",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD17-P1": {
+      "office": "State Representative — District 17, Position 1",
+      "topics": [
+        {
+          "issue": "Schools and job training",
+          "a": "Calls for stronger schools and skills training.",
+          "b": "Calls for school support."
+        },
+        {
+          "issue": "Housing costs",
+          "a": "Wants more affordable housing.",
+          "b": "Includes affordable housing among his priorities."
+        },
+        {
+          "issue": "Roads and internet",
+          "a": null,
+          "b": "Highlights roads, bridges, and broadband access."
+        },
+        {
+          "issue": "Public safety",
+          "a": null,
+          "b": "Emphasizes police and local safety programs."
+        },
+        {
+          "issue": "Health care",
+          "a": "Wants easier access to affordable health care.",
+          "b": null
+        },
+        {
+          "issue": "Local businesses",
+          "a": "Highlights small-business support.",
+          "b": null
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": null,
+          "b": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "b_basis": "Official House final-passage roll call",
+          "a_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Ben Christly",
+        "Kevin Waters"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Ben Christly",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=27",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Kevin Waters",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=27",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD17-P2": {
+      "office": "State Representative — District 17, Position 2",
+      "topics": [
+        {
+          "issue": "Housing",
+          "a": "Wants to lower housing costs.",
+          "b": "Says housing should be more affordable."
+        },
+        {
+          "issue": "Taxes and spending",
+          "a": null,
+          "b": "Emphasizes keeping costs down without higher taxes and stronger government oversight."
+        },
+        {
+          "issue": "Schools and child care",
+          "a": "Wants stronger public schools and child-care access.",
+          "b": null
+        },
+        {
+          "issue": "Health care",
+          "a": "Wants improved access to health care.",
+          "b": null
+        },
+        {
+          "issue": "Roads and public safety",
+          "a": "Supports infrastructure improvements and first responders.",
+          "b": "Emphasizes public safety."
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": null,
+          "b": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "b_basis": "Official House final-passage roll call",
+          "a_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Diana H. Perez",
+        "David Stuebe"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Diana H. Perez",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=28",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "David Stuebe",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=28",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD18-P1": {
+      "office": "State Representative — District 18, Position 1",
+      "topics": [
+        {
+          "issue": "Taxes and public spending",
+          "a": null,
+          "b": "Opposes tax increases and spending she considers excessive."
+        },
+        {
+          "issue": "Jobs and wages",
+          "a": "Focuses on higher-paying jobs.",
+          "b": "Emphasizes business growth."
+        },
+        {
+          "issue": "Housing",
+          "a": "Wants families to be able to afford homes.",
+          "b": null
+        },
+        {
+          "issue": "Schools",
+          "a": "Discusses how education policy affects families.",
+          "b": "Wants to reduce school requirements that lack funding."
+        },
+        {
+          "issue": "Police and public safety",
+          "a": null,
+          "b": "Emphasizes law enforcement."
+        },
+        {
+          "issue": "Health care",
+          "a": "Discusses health policies affecting families.",
+          "b": null
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": null,
+          "b": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "b_basis": "Official House final-passage roll call",
+          "a_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Randi L. Knott",
+        "Stephanie McClintock"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Randi L. Knott",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=29",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Stephanie McClintock",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=29",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD18-P2": {
+      "office": "State Representative — District 18, Position 2",
+      "topics": [
+        {
+          "issue": "Taxes",
+          "a": "Forum reporting says he supports the enacted tax on income above $1 million but opposes expanding it to lower-income households.",
+          "b": "Proposes repealing the income and carbon taxes and exempting $250,000 of home value from property tax.",
+          "a_source": "https://clarkcountytoday.com/story/candidates-state-and-county-elected-offices-outline",
+          "a_basis": "Attributed candidate position in local forum coverage"
+        },
+        {
+          "issue": "Housing and child care",
+          "a": "Supports building more housing and child-care facilities.",
+          "b": null
+        },
+        {
+          "issue": "Bridge and transit",
+          "a": "Supports building the Interstate 5 bridge.",
+          "b": "Supports new bridges without tolls or light rail."
+        },
+        {
+          "issue": "Workers and jobs",
+          "a": "Emphasizes workers and labor interests.",
+          "b": null
+        },
+        {
+          "issue": "Police and mental health",
+          "a": null,
+          "b": "Calls for more police and mental-health staffing."
+        },
+        {
+          "issue": "Reproductive rights and schools",
+          "a": "Supports reproductive choice.",
+          "b": "Emphasizes greater parental control in education."
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": null,
+          "b": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "b_basis": "Official House final-passage roll call",
+          "a_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Deken Letinich",
+        "John Ley"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Deken Letinich",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=30",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "John Ley",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=30",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD20-P1": {
+      "office": "State Representative — District 20, Position 1",
+      "topics": [
+        {
+          "issue": "Taxes and spending",
+          "a": "Calls for tax relief and accountable government.",
+          "b": null
+        },
+        {
+          "issue": "Public safety",
+          "a": "Emphasizes safer neighborhoods.",
+          "b": null
+        },
+        {
+          "issue": "Jobs",
+          "a": "Emphasizes economic opportunities.",
+          "b": "Emphasizes union and rural-community jobs."
+        },
+        {
+          "issue": "Housing",
+          "a": null,
+          "b": "Supports affordable housing without spreading development farther out."
+        },
+        {
+          "issue": "Transportation",
+          "a": null,
+          "b": "Supports public transportation."
+        },
+        {
+          "issue": "Health care and data centers",
+          "a": null,
+          "b": "Wants better health care access and opposes data centers."
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b": null,
+          "a_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "a_basis": "Official House final-passage roll call",
+          "b_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Peter Abbarno",
+        "Andy Zahn"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Peter Abbarno",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=31",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Andy Zahn",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=31",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD20-P2": {
+      "office": "State Representative — District 20, Position 2",
+      "topics": [
+        {
+          "issue": "Taxes and budgets",
+          "a": "Wants services funded through existing money instead of higher taxes.",
+          "b": null
+        },
+        {
+          "issue": "Jobs",
+          "a": "Emphasizes jobs in natural-resource industries.",
+          "b": "Emphasizes local jobs in timber, shipping, and construction."
+        },
+        {
+          "issue": "Infrastructure and permits",
+          "a": null,
+          "b": "Wants faster permits and infrastructure projects."
+        },
+        {
+          "issue": "Property rights",
+          "a": "Emphasizes protecting property rights.",
+          "b": null
+        },
+        {
+          "issue": "Workplace safety",
+          "a": null,
+          "b": "Highlights worker safety."
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": "Voted NO on ESSB 6346 House final passage, March 9, 2026.",
+          "b": null,
+          "a_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "a_basis": "Official House final-passage roll call",
+          "b_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Ed Orcutt",
+        "Evan Jones"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Ed Orcutt",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=32",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Evan Jones",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=32",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD49-P1": {
+      "office": "State Representative — District 49, Position 1",
+      "topics": [
+        {
+          "issue": "Housing and homelessness",
+          "a": "Emphasizes affordable housing and responding to homelessness.",
+          "b": null
+        },
+        {
+          "issue": "Schools and child care",
+          "a": "Calls for fully funded schools and affordable child care.",
+          "b": null
+        },
+        {
+          "issue": "Health care",
+          "a": "Supports broader access to health care.",
+          "b": "Highlights nursing and mental-health crisis care."
+        },
+        {
+          "issue": "Public safety",
+          "a": null,
+          "b": "Emphasizes safe communities."
+        },
+        {
+          "issue": "Taxes and government openness",
+          "a": null,
+          "b": "Calls for transparent government and practical results."
+        },
+        {
+          "issue": "Transportation and environment",
+          "a": "Supports transportation improvements and environmental protection.",
+          "b": null
+        },
+        {
+          "issue": "Cost of living",
+          "a": "Wants everyday needs to be more affordable.",
+          "b": "Wants families to face lower living costs."
+        }
+      ],
+      "candidate_names": [
+        "Kim D. Harless",
+        "Sarah Mittelman"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Kim D. Harless",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=33",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Sarah Mittelman",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=33",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "LD49-P2": {
+      "office": "State Representative — District 49, Position 2",
+      "topics": [
+        {
+          "issue": "School funding",
+          "a": "Highlights special-education funding.",
+          "b": "Calls for changes to how schools are funded."
+        },
+        {
+          "issue": "Housing and child care",
+          "a": "Wants housing and child care to be more affordable.",
+          "b": null
+        },
+        {
+          "issue": "Health care",
+          "a": "Emphasizes affordable health care.",
+          "b": null
+        },
+        {
+          "issue": "Jobs and small businesses",
+          "a": "Highlights job opportunities.",
+          "b": "Wants to protect local businesses during major construction projects."
+        },
+        {
+          "issue": "Taxes and spending",
+          "a": null,
+          "b": "Wants more accountability for tax spending."
+        },
+        {
+          "issue": "Recorded vote on ESSB 6346 (millionaires’ income-tax bill)",
+          "a": "Voted YES on ESSB 6346 House final passage, March 9, 2026.",
+          "b": null,
+          "a_source": "https://app.leg.wa.gov/bi/RollCallsOnABill/RollCall?biennium=2025-26&billNumber=6346&initiative=False",
+          "a_basis": "Official House final-passage roll call",
+          "b_missing_reason": "No comparable vote for this candidate in that House roll call; it does not establish support or opposition."
+        }
+      ],
+      "candidate_names": [
+        "Monica Jurado Stonier",
+        "Derek Thompson"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Monica Jurado Stonier",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=34",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Derek Thompson",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=34",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Assessor": {
+      "office": "Clark County Assessor",
+      "topics": [
+        {
+          "issue": "How homes are valued",
+          "a": "Emphasizes explaining property assessments and how the office works.",
+          "b": "Wants values grounded in market evidence; questions some current valuations."
+        },
+        {
+          "issue": "Property-tax relief",
+          "a": "Highlights senior tax exemptions and a possible homestead exemption.",
+          "b": null
+        },
+        {
+          "issue": "Appeals and mistakes",
+          "a": null,
+          "b": "Wants clearer answers and stronger accountability for assessment errors."
+        },
+        {
+          "issue": "Office services",
+          "a": "Wants better office technology and efficiency.",
+          "b": "Calls for better customer service and transparency."
+        }
+      ],
+      "candidate_names": [
+        "Peter Van Nortwick",
+        "Tyler Thoune"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Peter Van Nortwick",
+          "url": "https://clark.wa.gov/media/document/235041#page=12",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Tyler Thoune",
+          "url": "https://clark.wa.gov/media/document/235041#page=12",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Auditor": {
+      "office": "Clark County Auditor",
+      "topics": [
+        {
+          "issue": "Election administration",
+          "a": "Calls for reviewing election integrity and maintaining voter rolls.",
+          "b": "Emphasizes administering elections fairly and accurately."
+        },
+        {
+          "issue": "Audits and public money",
+          "a": "Emphasizes scrutiny of waste, fraud, and abuse.",
+          "b": "Highlights professional auditing and finance experience."
+        },
+        {
+          "issue": "Public records",
+          "a": null,
+          "b": "Emphasizes accurate records."
+        },
+        {
+          "issue": "Management and service",
+          "a": "Emphasizes government leadership and customer service.",
+          "b": "Emphasizes day-to-day office management."
+        },
+        {
+          "issue": "Evidence of election problems",
+          "a": "Wants additional examination; the candidate statement is not evidence of a violation.",
+          "b": "Emphasizes impartial administration; the candidate statement is not itself an audit of election systems."
+        }
+      ],
+      "candidate_names": [
+        "Eileen Quiring O’Brien",
+        "Mitchell Kelly"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Eileen Quiring O’Brien",
+          "url": "https://clark.wa.gov/media/document/235041#page=13",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Mitchell Kelly",
+          "url": "https://clark.wa.gov/media/document/235041#page=13",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Clerk": {
+      "office": "Clark County Clerk",
+      "topics": [
+        {
+          "issue": "Court records",
+          "a": "Emphasizes secure court records and independent digital copies.",
+          "b": "Emphasizes accurate records and easier public access."
+        },
+        {
+          "issue": "Online services",
+          "a": "Highlights electronic court filing and records access.",
+          "b": "Wants faster, easier-to-use services."
+        },
+        {
+          "issue": "Money and collections",
+          "a": "Highlights collection of court-ordered payments.",
+          "b": "Wants easier access to financial information."
+        },
+        {
+          "issue": "Public access and contact",
+          "a": "Emphasizes efficient service.",
+          "b": "Proposes monthly public office hours."
+        }
+      ],
+      "candidate_names": [
+        "Scott G Weber",
+        "Rachel Shapiro"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Scott G Weber",
+          "url": "https://clark.wa.gov/media/document/235041#page=14",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Rachel Shapiro",
+          "url": "https://clark.wa.gov/media/document/235041#page=14",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Council-1": {
+      "office": "Clark County Councilor — District 1",
+      "topics": [
+        {
+          "issue": "Housing and homelessness",
+          "a": "Emphasizes housing stability and homelessness services.",
+          "b": "Emphasizes accountability for homelessness programs."
+        },
+        {
+          "issue": "Taxes and budgets",
+          "a": null,
+          "b": "Says the county should try other budget options before raising taxes."
+        },
+        {
+          "issue": "Public safety",
+          "a": "Includes public safety among priorities.",
+          "b": "Includes public safety among priorities."
+        },
+        {
+          "issue": "Infrastructure",
+          "a": "Emphasizes clean-water infrastructure and environmental restoration.",
+          "b": "Emphasizes transportation and balanced growth."
+        },
+        {
+          "issue": "Business and environment",
+          "a": "Emphasizes working with other governments and environmental restoration.",
+          "b": "Emphasizes small businesses and renewable energy."
+        },
+        {
+          "issue": "Light rail on the I-5 bridge",
+          "a": "Introduced a Council resolution favoring extending light rail to Vancouver Library Square.",
+          "b": "Expressed concern that adding light rail would be very expensive.",
+          "a_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "a_basis": "OPB report of Council action and candidate response",
+          "b_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "b_basis": "OPB report of Council action and candidate response"
+        }
+      ],
+      "candidate_names": [
+        "Glen Yung",
+        "Bryan Shull"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Glen Yung",
+          "url": "https://clark.wa.gov/media/document/235041#page=15",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Bryan Shull",
+          "url": "https://clark.wa.gov/media/document/235041#page=15",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Council-2": {
+      "office": "Clark County Councilor — District 2",
+      "topics": [
+        {
+          "issue": "Taxes",
+          "a": "Opposes new taxes.",
+          "b": "Said services still need funding despite reluctance to raise taxes; the report does not establish support for a specific tax increase.",
+          "b_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "b_basis": "OPB report of candidate statement"
+        },
+        {
+          "issue": "Bridge tolls and light rail",
+          "a": "Voted against the county resolution supporting light rail; also opposes county subsidies and bridge tolls in her pamphlet.",
+          "b": "OPB reported his support for extending light rail on the I-5 bridge.",
+          "a_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "a_basis": "OPB report of recorded Council action; pamphlet position",
+          "b_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "b_basis": "OPB report of public position"
+        },
+        {
+          "issue": "Housing and land use",
+          "a": "Voted for a county land-use map allowing some cities to expand urban growth boundaries.",
+          "b": "Supports more affordable housing while protecting natural spaces.",
+          "a_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "a_basis": "OPB report of recorded Council action"
+        },
+        {
+          "issue": "Public safety",
+          "a": "Prioritizes law enforcement.",
+          "b": "Named public safety, roads, parks, and housing among county priorities.",
+          "b_source": "https://www.opb.org/article/2026/07/29/clark-county-council-primary-election-trains-taxes-growth/",
+          "b_basis": "OPB report of candidate forum"
+        },
+        {
+          "issue": "County services",
+          "a": null,
+          "b": "Emphasizes infrastructure and social services."
+        },
+        {
+          "issue": "Annexation",
+          "a": "Opposes unwanted annexation.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Michelle Belkot",
+        "John Zingale"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Michelle Belkot",
+          "url": "https://clark.wa.gov/media/document/235041#page=16",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "John Zingale",
+          "url": "https://clark.wa.gov/media/document/235041#page=16",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Council-5": {
+      "office": "Clark County Councilor — District 5",
+      "topics": [
+        {
+          "issue": "Taxes and budget",
+          "a": "Emphasizes responsible budgets.",
+          "b": "Emphasizes oversight of taxes and government spending."
+        },
+        {
+          "issue": "Light rail funding",
+          "a": "Wants county tax funding for light rail to require voter approval.",
+          "b": null
+        },
+        {
+          "issue": "Housing and growth",
+          "a": "Emphasizes responsible growth.",
+          "b": "Highlights housing affordability."
+        },
+        {
+          "issue": "Public safety",
+          "a": "Emphasizes public safety.",
+          "b": "Emphasizes public safety."
+        },
+        {
+          "issue": "Roads, parks, and other projects",
+          "a": "Emphasizes infrastructure.",
+          "b": "Emphasizes parks, trails, and infrastructure."
+        },
+        {
+          "issue": "County charter changes",
+          "a": null,
+          "b": "Emphasizes changing county charter rules."
+        }
+      ],
+      "candidate_names": [
+        "Troy McCoy",
+        "Peter Silliman"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Troy McCoy",
+          "url": "https://clark.wa.gov/media/document/235041#page=17",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Peter Silliman",
+          "url": "https://clark.wa.gov/media/document/235041#page=17",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Prosecutor": {
+      "office": "Clark County Prosecuting Attorney",
+      "topics": [
+        {
+          "issue": "Crime and accountability",
+          "a": "Calls for holding people responsible for crimes and using evidence to make decisions.",
+          "b": null
+        },
+        {
+          "issue": "Victim support",
+          "a": "Emphasizes justice for victims.",
+          "b": null
+        },
+        {
+          "issue": "Fairness in prosecutions",
+          "a": "Says the office should be fair and effective.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Laurel Smith"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Laurel Smith",
+          "url": "https://clark.wa.gov/media/document/235041#page=18",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Sheriff": {
+      "office": "Clark County Sheriff",
+      "topics": [
+        {
+          "issue": "Patrol and emergency response",
+          "a": "Calls for more sheriff deputies and patrol staffing.",
+          "b": null
+        },
+        {
+          "issue": "Investigations and traffic",
+          "a": "Wants additional staff for investigations and traffic enforcement.",
+          "b": null
+        },
+        {
+          "issue": "Victim support",
+          "a": "Emphasizes staff needed to help victims.",
+          "b": null
+        },
+        {
+          "issue": "Police funding and staffing levels",
+          "a": "Says increasing staffing is the main priority; exact costs and outcomes need agency data.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "John Horch"
+      ],
+      "candidate_sources": [
+        {
+          "name": "John Horch",
+          "url": "https://clark.wa.gov/media/document/235041#page=18",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "Treasurer": {
+      "office": "Clark County Treasurer",
+      "topics": [
+        {
+          "issue": "Protecting public money",
+          "a": "Emphasizes safeguards and financial controls.",
+          "b": null
+        },
+        {
+          "issue": "Investing county funds",
+          "a": "Wants responsible investment returns on public money.",
+          "b": null
+        },
+        {
+          "issue": "Public information and service",
+          "a": "Emphasizes transparency and helpful taxpayer service.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Alishia Topper"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Alishia Topper",
+          "url": "https://clark.wa.gov/media/document/235041#page=19",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "SC-1": {
+      "office": "Washington Supreme Court — Position 1",
+      "topics": [
+        {
+          "issue": "Following legal text and the Constitution",
+          "a": "Emphasizes civil-rights protections and judicial independence.",
+          "b": "Says judges should apply the words of laws and the Constitution as written."
+        },
+        {
+          "issue": "Court fairness and access",
+          "a": "Highlights access to justice and impartiality.",
+          "b": "Emphasizes predictable decisions and accountability."
+        },
+        {
+          "issue": "Judges and politics",
+          "a": "Says courts should be independent.",
+          "b": "Says courts should be independent."
+        },
+        {
+          "issue": "Relevant legal experience",
+          "a": "Highlights civil-rights litigation experience.",
+          "b": "Highlights experience with legal interpretation and accountability."
+        }
+      ],
+      "candidate_names": [
+        "Colleen Melody",
+        "Scott Edwards"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Colleen Melody",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=36",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Scott Edwards",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=36",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "SC-3": {
+      "office": "Washington Supreme Court — Position 3",
+      "topics": [
+        {
+          "issue": "What a judge should decide",
+          "a": "Says policy choices belong to lawmakers and judges should avoid making policy.",
+          "b": "Emphasizes protecting legal rights through court decisions."
+        },
+        {
+          "issue": "Access to lawyers and courts",
+          "a": null,
+          "b": "Highlights legal representation for people who cannot afford it."
+        },
+        {
+          "issue": "Judicial independence",
+          "a": "Emphasizes constitutional rights and limits on judicial power.",
+          "b": "Emphasizes independence from outside pressure."
+        },
+        {
+          "issue": "Perspective brought to the court",
+          "a": "Highlights having been elected to a judicial role.",
+          "b": "Emphasizes experience with working families and women."
+        }
+      ],
+      "candidate_names": [
+        "David Stevens",
+        "Jaime Michelle Hawk"
+      ],
+      "candidate_sources": [
+        {
+          "name": "David Stevens",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=37",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Jaime Michelle Hawk",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=37",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "SC-4": {
+      "office": "Washington Supreme Court — Position 4",
+      "topics": [
+        {
+          "issue": "Appeals and prior court work",
+          "a": "Highlights prior appellate court decision-making.",
+          "b": "Highlights experience leading trial-court proceedings."
+        },
+        {
+          "issue": "Equal treatment in court",
+          "a": "Emphasizes fair access and treatment.",
+          "b": "Emphasizes impartiality and constitutional rights."
+        },
+        {
+          "issue": "People affected by decisions",
+          "a": "Emphasizes the effects of rulings on individuals and families.",
+          "b": "Emphasizes crime victims, families, and protective orders."
+        },
+        {
+          "issue": "Judicial independence",
+          "a": "Says judges should make independent decisions.",
+          "b": "Emphasizes impartiality."
+        }
+      ],
+      "candidate_names": [
+        "Ian Birk",
+        "Sean O’Donnell"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Ian Birk",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=38",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Sean O’Donnell",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=38",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "SC-5": {
+      "office": "Washington Supreme Court — Position 5",
+      "topics": [
+        {
+          "issue": "Court access and legal help",
+          "a": "Emphasizes accessible courts and legal help for people without the money to hire lawyers.",
+          "b": "Highlights court experience and fair treatment."
+        },
+        {
+          "issue": "Judicial independence",
+          "a": "Emphasizes independent courts.",
+          "b": "Emphasizes courts staying independent from party politics."
+        },
+        {
+          "issue": "Crime and addiction cases",
+          "a": null,
+          "b": "Talks about responses that combine help and responsibility."
+        },
+        {
+          "issue": "Rights of people before the court",
+          "a": "Highlights individual rights and help to immigrants and veterans.",
+          "b": "Emphasizes accountability and fair decisions."
+        }
+      ],
+      "candidate_names": [
+        "Theo Angelis",
+        "Dave Larson"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Theo Angelis",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=39",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Dave Larson",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=39",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "SC-7": {
+      "office": "Washington Supreme Court — Position 7",
+      "topics": [
+        {
+          "issue": "Judicial independence",
+          "a": "Emphasizes fairness and independent decisions.",
+          "b": "Emphasizes impartial application of law."
+        },
+        {
+          "issue": "Experience",
+          "a": "Highlights her current Supreme Court service.",
+          "b": "Highlights his business, financial, and military background."
+        },
+        {
+          "issue": "Court access and efficiency",
+          "a": "Emphasizes public access, transparency, and efficient courts.",
+          "b": null
+        },
+        {
+          "issue": "Checks and accountability",
+          "a": null,
+          "b": "Emphasizes accountability and balance."
+        }
+      ],
+      "candidate_names": [
+        "Debra L. Stephens",
+        "Todd A. Bloom"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Debra L. Stephens",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=40",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Todd A. Bloom",
+          "url": "https://clark.wa.gov/sites/default/files/media/document/2026-09/2026clarkcountygeneralvp_web.pdf#page=40",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-1": {
+      "office": "Clark County District Court — Department 1",
+      "topics": [
+        {
+          "issue": "Fair treatment in court",
+          "a": "Highlights patience, empathy, and equal access.",
+          "b": null
+        },
+        {
+          "issue": "Following law and process",
+          "a": "Emphasizes due process and integrity.",
+          "b": null
+        },
+        {
+          "issue": "Improving court work",
+          "a": "Emphasizes continued judicial learning.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Kristen L. Parcher"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Kristen L. Parcher",
+          "url": "https://clark.wa.gov/media/document/235041#page=19",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-2": {
+      "office": "Clark County District Court — Department 2",
+      "topics": [
+        {
+          "issue": "Fair treatment in court",
+          "a": "Emphasizes treating court users with respect.",
+          "b": null
+        },
+        {
+          "issue": "Court operations",
+          "a": "Emphasizes responses to changing court needs.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Chad E. Sleight"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Chad E. Sleight",
+          "url": "https://clark.wa.gov/media/document/235041#page=20",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-3": {
+      "office": "Clark County District Court — Department 3",
+      "topics": [
+        {
+          "issue": "Deciding cases fairly",
+          "a": "Emphasizes law, facts, and respectful treatment.",
+          "b": null
+        },
+        {
+          "issue": "Specialized court programs",
+          "a": "Highlights work with Veterans Therapeutic Court.",
+          "b": null
+        },
+        {
+          "issue": "Court improvements",
+          "a": "Says he wants to improve court processes.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "James B. Smith"
+      ],
+      "candidate_sources": [
+        {
+          "name": "James B. Smith",
+          "url": "https://clark.wa.gov/media/document/235041#page=20",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-4": {
+      "office": "Clark County District Court — Department 4",
+      "topics": [
+        {
+          "issue": "Equal access to courts",
+          "a": "Emphasizes fair access and respectful treatment.",
+          "b": null
+        },
+        {
+          "issue": "Following legal rules",
+          "a": "Emphasizes preparation and impartial application of law.",
+          "b": null
+        },
+        {
+          "issue": "Improving court operations",
+          "a": "Highlights court-system improvements.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Leslie A. Lopez"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Leslie A. Lopez",
+          "url": "https://clark.wa.gov/media/document/235041#page=21",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-5": {
+      "office": "Clark County District Court — Department 5",
+      "topics": [
+        {
+          "issue": "Fair hearings",
+          "a": "Emphasizes a fair and understandable courtroom.",
+          "b": null
+        },
+        {
+          "issue": "People involved in cases",
+          "a": "Says judges should recognize the difficulties court participants face.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Megan D. Peyton"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Megan D. Peyton",
+          "url": "https://clark.wa.gov/media/document/235041#page=21",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "DC-6": {
+      "office": "Clark County District Court — Department 6",
+      "topics": [
+        {
+          "issue": "Fair access to courts",
+          "a": "Emphasizes accessible, open, and fair justice.",
+          "b": null
+        },
+        {
+          "issue": "Treatment courts",
+          "a": "Highlights treatment courts for certain cases involving substance use.",
+          "b": null
+        },
+        {
+          "issue": "Public education",
+          "a": "Emphasizes teaching the community about the law.",
+          "b": null
+        }
+      ],
+      "candidate_names": [
+        "Abigail E. Bartlett"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Abigail E. Bartlett",
+          "url": "https://clark.wa.gov/media/document/235041#page=22",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    },
+    "PUD-3": {
+      "office": "Clark Public Utility District Commissioner — District 3",
+      "topics": [
+        {
+          "issue": "Electric and water reliability",
+          "a": "Emphasizes keeping services dependable and planning for future demand.",
+          "b": "Emphasizes securing power supplies as demand grows."
+        },
+        {
+          "issue": "Customer rates and assistance",
+          "a": "Highlights help for customers and certain nonprofit utility rates.",
+          "b": null
+        },
+        {
+          "issue": "Conservation and efficiency",
+          "a": "Emphasizes conserving resources.",
+          "b": "Discusses changes to generation and community solar."
+        },
+        {
+          "issue": "Solar power",
+          "a": "Emphasizes utility planning, including future resource needs.",
+          "b": "Proposes partnerships for solar generation east of the Cascades."
+        },
+        {
+          "issue": "Utility operations and investments",
+          "a": "Highlights reliability and customer support.",
+          "b": "Calls for changes to community solar investment programs."
+        },
+        {
+          "issue": "2025 water-rate decisions",
+          "a": "Voted against residential water-rate increases for 2026–2027. The separate non-residential rate changes passed unanimously.",
+          "b": null,
+          "a_source": "https://www.clarkpublicutilities.com/news/news-release-10-22-2025/",
+          "a_basis": "Clark Public Utilities official October 22, 2025 board record",
+          "b_missing_reason": "The cited 2025 board vote does not provide a comparable vote for Matthews; this is not evidence of his position."
+        }
+      ],
+      "candidate_names": [
+        "Jane A. Van Dyke",
+        "Gordon Matthews"
+      ],
+      "candidate_sources": [
+        {
+          "name": "Jane A. Van Dyke",
+          "url": "https://clark.wa.gov/media/document/235041#page=22",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        },
+        {
+          "name": "Gordon Matthews",
+          "url": "https://clark.wa.gov/media/document/235041#page=23",
+          "description": "candidate-submitted voters pamphlet; not independently fact-checked"
+        }
+      ]
+    }
+  },
+  "external_issue_additions": 24
+}

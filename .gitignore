@@ -1,0 +1,9 @@
+# Research pipeline generated outputs, local raw archives, keys, machine-only state
+platform/output/
+deploy-multnomah/
+*.sqlite3
+*.db
+.env
+.env.*
+__pycache__/
+*.pyc

@@ -1,0 +1,22 @@
+{
+  "official_county_pamphlet.pdf": {
+    "url": "https://multco.us/file/multnomah_county_voters%27_pamphlet_-_november_2026_general_election/download",
+    "bytes": 6868615,
+    "sha256": "0f1f036bd8b755ee33b385224b6d31544a53c04de4a7f246f741d16d8fa2461f"
+  },
+  "official_ballot_content.pdf": {
+    "url": "https://multco.us/file/ballot_content_-_nov._2026/download",
+    "bytes": 136998,
+    "sha256": "eec5842cadb8e28513f9fcdc616bbda4d00b80d5e7a456c9c09c3a24d9dd25c8"
+  },
+  "official_ballot_rcv.pdf": {
+    "url": "https://multco.us/file/ballot_content_rcv_-_nov._2026/download",
+    "bytes": 116868,
+    "sha256": "c1be7b04d586051f2600be7b8ee8c17ee93d4d6a491ecc8f416c36e613af19f0"
+  },
+  "official_state_pamphlet.pdf": {
+    "url": "https://sos.oregon.gov/elections/Voters-Pamphlet/Documents/VP_G26-Book13_web.pdf",
+    "bytes": 9845787,
+    "sha256": "0c56e3e1765ac5d4690645d8a117150f51197e926d9ea55d975c4f6bfbd75ead"
+  }
+}

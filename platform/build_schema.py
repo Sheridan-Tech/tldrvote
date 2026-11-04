@@ -1,0 +1,66 @@
+"""Build canonical TLDR Vote v1 JSON schema. No service secrets or API dependencies."""
+import json
+from pathlib import Path
+R=Path(__file__).resolve().parent
+claim={'type':'object','additionalProperties':False,'required':['text','status','source_ids'],'properties':{
+ 'text':{'type':'string'},'status':{'enum':['OFFICIAL_TEXT','ATTRIBUTED','RECORDED','REPORTED','DRAFT_INTERPRETATION','UNKNOWN','EDITOR_APPROVED']},
+ 'source_ids':{'type':'array','items':{'type':'string'}},
+ 'qualifier':{'type':'string'},'reviewer':{'type':['string','null']},'reviewed_at':{'type':['string','null']},
+ 'source_excerpt':{'type':['string','null']}}}
+source={'type':'object','additionalProperties':False,'required':['id','url','category','label'],'properties':{
+ 'id':{'type':'string','pattern':'^[A-Za-z0-9_.:-]+$'},'url':{'type':'string','format':'uri'},
+ 'category':{'enum':['official_ballot','official_pamphlet','official_record','candidate_statement','journalism','advocacy','policy_analysis','other']},
+ 'label':{'type':'string','minLength':3},'page':{'type':['integer','null'],'minimum':1},
+ 'sha256':{'type':['string','null'],'pattern':'^[a-f0-9]{64}$'},'retrieved_at':{'type':['string','null']}}}
+candidate={'type':'object','additionalProperties':False,'required':['id','name','profile_status','reported_bio','topics_mentioned','priority','source_ids'],'properties':{
+ 'id':{'type':'string','minLength':2},'name':{'type':'string','minLength':2},
+ 'party':{'type':['string','null']},'profile_status':{'enum':['MATCHED','NOT_LOCATED']},
+ 'reported_bio':{'type':'object','additionalProperties':{'type':'string'}},
+ 'topics_mentioned':{'type':'array','items':{'type':'string'}},
+ 'priority':{'$ref':'#/$defs/claim'},'source_ids':{'type':'array','items':{'type':'string'}}}}
+position={'type':'object','additionalProperties':False,'required':['candidate_id','state','claim'],'properties':{
+ 'candidate_id':{'type':'string'},
+ 'state':{'enum':['STATED','RECORDED','REPORTED','MENTION_ONLY','NOT_FOUND']},
+ 'claim':{'$ref':'#/$defs/claim'}}}
+issue_row={'type':'object','additionalProperties':False,'required':['issue','positions'],'properties':{
+ 'issue':{'type':'string','minLength':3},'positions':{'type':'array','minItems':1,'items':{'$ref':'#/$defs/position'}}}}
+sections=['big_picture','yes','no','supporters_why','critics_why','who_affected','money','other_impacts','one_to_remember','unresolved']
+contest={'type':'object','additionalProperties':False,'required':['id','kind','title','jurisdiction','source_ids','evidence_status'],'properties':{
+ 'id':{'type':'string'},'kind':{'enum':['race','measure']},'title':{'type':'string'},
+ 'jurisdiction':{'type':'string'},'voting_method':{'enum':['standard','ranked-choice']},
+ 'source_ids':{'type':'array','minItems':1,'items':{'type':'string'}},
+ 'evidence_status':{'enum':['UNREVIEWED','PARTIAL','REVIEWED']},
+ 'office_role':{'$ref':'#/$defs/claim'},'candidates':{'type':'array','items':{'$ref':'#/$defs/candidate'}},
+ 'issue_matrix':{'type':'array','items':{'$ref':'#/$defs/issue_row'}},'where_they_differ':{'$ref':'#/$defs/claim'},
+ 'measure_sections':{'type':'object','additionalProperties':False,'required':sections,
+ 'properties':{k:{'$ref':'#/$defs/claim'} for k in sections}}}}
+schema={'$schema':'https://json-schema.org/draft/2020-12/schema',
+ '$id':'https://github.com/Sheridan-Tech/tldrvote/blob/main/platform/schema.json',
+ 'title':'TLDR Vote canonical election edition v1','type':'object','additionalProperties':False,
+ 'required':['schema_version','election','jurisdiction','sources','contests','coverage','editorial_status','release_gate'],
+ 'properties':{
+  'schema_version':{'const':'1.0.0'},
+  'election':{'type':'object','additionalProperties':False,'required':['id','date','kind','state','source_urls','snapshot_date'],
+  'properties':{'id':{'type':'string','minLength':3},'date':{'type':'string','format':'date'},
+  'kind':{'enum':['general','primary','special','other']},'state':{'type':'string','pattern':'^[A-Z]{2}$'},
+  'source_urls':{'type':'array','minItems':1,'items':{'type':'string','format':'uri'}},
+  'snapshot_date':{'type':'string','format':'date'},'archived':{'type':'boolean'}}},
+  'jurisdiction':{'type':'object','additionalProperties':False,'required':['state','county','label','scope'],
+  'properties':{'state':{'type':'string','pattern':'^[A-Z]{2}$'},'county':{'type':'string','minLength':2},
+  'label':{'type':'string'},'scope':{'const':'countywide_inventory_not_personal_ballot'},
+  'official_lookup_url':{'type':'string','format':'uri'}}},
+  'sources':{'type':'array','minItems':1,'items':{'$ref':'#/$defs/source'}},
+  'contests':{'type':'array','minItems':1,'items':{'$ref':'#/$defs/contest'}},
+  'coverage':{'type':'object','additionalProperties':False,
+  'required':['topics','races','measures','candidates','unmatched_profiles','structural_issues','editorial_approved_claims'],
+  'properties':{'topics':{'type':'integer','minimum':1},'races':{'type':'integer','minimum':0},
+  'measures':{'type':'integer','minimum':0},'candidates':{'type':'integer','minimum':0},
+  'unmatched_profiles':{'type':'integer','minimum':0},'structural_issues':{'type':'array','items':{'type':'string'}},
+  'editorial_approved_claims':{'type':'integer','minimum':0},'completeness_caveat':{'type':'string'}}},
+  'editorial_status':{'enum':['UNREVIEWED','PARTIAL','REVIEWED']},
+  'release_gate':{'type':'object','additionalProperties':False,'required':['ready','blockers'],
+  'properties':{'ready':{'type':'boolean'},'blockers':{'type':'array','items':{'type':'string'}}}}
+ },
+ '$defs':{'claim':claim,'source':source,'candidate':candidate,'position':position,'issue_row':issue_row,'contest':contest}}
+(R/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf8')
+print('SCHEMA_WRITTEN',R/'schema.json','CONTEST_SECTIONS',len(sections))
